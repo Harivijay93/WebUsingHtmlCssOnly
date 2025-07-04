@@ -1,4 +1,7 @@
 /* -------------------Global Style------------------- */
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -96,10 +99,22 @@ ul {
 }
 
 /* -------------------Section------------------- */
+/* navbar*/
+.navbar {
+    margin-bottom: 200px;
+}
 
 /* Hero Section */
 .hero-section {
     text-align: center;
+}
+
+.hero-heading{
+  margin-bottom: 10px;
+}
+
+.hero-paragraph{
+    margin-bottom: 100px;
 }
 
 /* Features Section */
