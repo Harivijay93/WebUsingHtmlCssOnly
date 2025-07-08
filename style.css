@@ -47,7 +47,7 @@ ul {
     font-size: 12px;
 }
 /* -------------------Button Style------------------- */
-.btn{
+.btn {
    font-size: 16px;
    text-decoration: none;  
    padding: 15px 30px ;
@@ -94,7 +94,7 @@ ul {
     width: 100px;
 }
 
-.logo-sm{
+.logo-sm {
     width: 80px;
 }
 
@@ -107,6 +107,7 @@ ul {
 /* Hero Section */
 .hero-section {
     text-align: center;
+    margin-bottom: 300px;
 }
 
 .hero-heading{
@@ -114,12 +115,17 @@ ul {
 }
 
 .hero-paragraph{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /* Features Section */
+
+.features-section{
+    margin-bottom: 300px;
+}
 .featuresmain-section {
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .feature-img {
@@ -129,6 +135,7 @@ ul {
 /* CTA Section */
 .cta-section {
     text-align: center;
+    margin-bottom: 300px;
 }
 
 .cta-card {
