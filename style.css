@@ -29,7 +29,6 @@ h3{
     font-size: 40px;
 }
 
-
 p {   
     font-size: 20px;   
 }
@@ -111,7 +110,7 @@ ul {
 }
 
 .hero-heading{
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .hero-paragraph{
@@ -119,7 +118,6 @@ ul {
 }
 
 /* Features Section */
-
 .features-section{
     margin-bottom: 300px;
 }
