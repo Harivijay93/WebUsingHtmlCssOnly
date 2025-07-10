@@ -36,15 +36,21 @@ p {
 a {  
     text-decoration: none;  
     font-size: 16px;
+    display: inline-block;
 }
 
 ul {
     list-style: none;
 }
 
+span {
+    display: inline-block;
+}
+
 #Credit {
     font-size: 12px;
 }
+
 /* -------------------Button Style------------------- */
 .btn {
    font-size: 16px;
