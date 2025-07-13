@@ -1,6 +1,8 @@
 /* -------------------Global Style------------------- */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -8,6 +10,11 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -66,9 +73,9 @@ span {
 }
 
 .btn-primary:hover, .btn-primary:active { 
-      color: #ffffff;
-      background-color: #1c7ed6;  
-      border: 2px solid #1c7ed6;
+    color: #ffffff;
+    background-color: #1c7ed6;  
+    border: 2px solid #1c7ed6;
 }
 
 .btn-primary-outline:link, .btn-primary-outline:visited {
@@ -132,8 +139,13 @@ span {
     margin-bottom: 80px;
 }
 
+.features-heading {
+    margin-bottom: 20px;
+}
+
 .feature-img {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 
 /* CTA Section */
@@ -145,9 +157,14 @@ span {
 .cta-card {
     background-color: #339af0;
     text-align: center;
-    width: 1000px;
+    max-width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
+    margin: 0 auto;
+}
+
+.cta-heading {
+    margin-bottom: 30px;
 }
 
 /* Footer Section */
