@@ -197,6 +197,10 @@ span {
     margin-bottom: 8rem;
 }
 
+.feature-grid-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .features-heading {
     margin-bottom: 2rem;
 }
