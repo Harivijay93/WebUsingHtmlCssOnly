@@ -200,7 +200,17 @@ span {
 .feature-grid-cont {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 10rem;
+    column-gap: 5rem;
+    align-items: center;
+    justify-items: center;
 }
+
+.fea-img-sorder {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
 .features-heading {
     margin-bottom: 2rem;
 }
