@@ -114,6 +114,8 @@ span {
     background-color: var(--primary-shade);  
     border: 2px solid var(--primary-shade);
     transform: scale(1.05,1.05);
+    box-shadow: 0px 3px 6px 0px var(--grey-base);
+    
 }
 
 .btn-primary-outline:link, .btn-primary-outline:visited {
@@ -127,6 +129,7 @@ span {
     background-color: var(--white);
     border: 2px solid var(--primary-shade);
     transform: scale(1.05,1.05);
+    box-shadow: 0px 3px 6px 0px var(--grey-base);
 }
 
 .btn-secondary:link, .btn-secondary:visited {
@@ -140,6 +143,7 @@ span {
     background-color: var(--secoundary-shade);  
     border: 2px solid var(--secoundary-shade);
     transform: scale(1.05,1.05);
+    box-shadow: 0px 3px 6px 0px var(--grey-base);
 }
 
 .logo-md {
