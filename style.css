@@ -168,6 +168,22 @@ span {
     width: 5rem;
 }
 
+.beta {
+    position: relative;
+}
+
+.beta::after {
+    content: 'beta';
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
+    background-color: #ffa500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: var(--white);
+    transform: translate(70%, -70%);
+}
 /* -------------------Section------------------- */
 /* header */
 /* .header {
